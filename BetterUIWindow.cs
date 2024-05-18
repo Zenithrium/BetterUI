@@ -39,7 +39,7 @@ namespace BetterUI
                     Mathf.Abs(monitoredGameObject.transform.position.y) < 50 )
                 {
                     UnityEngine.Object.Destroy(BetterUIPlugin.instance);
-                    Debug.LogError("It appears the BetterUI Button has been destroyed or moved off the screen, this is not supported and BetterUI has been disabled.");
+                    Debug.LogError("It appears the Shill Button has been destroyed or moved off the screen, this is not supported and BetterUI has been disabled.");
                 }
             }
         }
@@ -78,6 +78,7 @@ namespace BetterUI
                     hgButton.hoverLanguageTextMeshController = DescriptionController;
                 }
             }
+            Debug.Log("Yeah betterui done loading");
             orig(self);
         }
     }
@@ -87,6 +88,7 @@ namespace BetterUI
         static Dictionary<GameObject, GameObject> spawnedGameObjects = new Dictionary<GameObject, GameObject>();
         public void createWindow(GameObject prefab)
         {
+            Debug.Log("Create Window call");
             if (BetterUIWindow.menuParent != null)
             {
                 var exists = spawnedGameObjects.TryGetValue(prefab, out var instance);
@@ -130,6 +132,7 @@ namespace BetterUI
 
         private void PrefabLoaded(AsyncOperationHandle<GameObject> obj)
         {
+            Debug.Log("Prefab Loaded");
             switch (obj.Status)
             {
                 case AsyncOperationStatus.Succeeded:
@@ -174,6 +177,7 @@ namespace BetterUI
 
         void LoadAsset(bool dontSave = false)
         {
+            Debug.Log("Load Asset");
             var typ = component.GetType();
             var field = typ.GetField(fieldName, BindingFlags.Public | BindingFlags.Static | BindingFlags.IgnoreCase | BindingFlags.Instance | BindingFlags.NonPublic);
             PropertyInfo property = null;

@@ -1,8 +1,8 @@
 {
-    "BETTERUI_TITLE": "BetterUI",
-    "BETTERUI_TITLE_HOVER": "Open the BetterUI window.",
-    "BETTERUI_BUGREPORT": "Download LookingGlass",
-    "BETTERUI_CLOSE_WINDOW": "Close Window",
-    "BETTERUI_MADEBY": "Made by XoXFaby",
-    "BETTERUI_WINDOW_LABEL": "Go download LookingGlass if you want to see item and character stats! This mod is just a button.",
+  "BETTERUI_TITLE": "Download LookingGlass!",
+  "BETTERUI_TITLE_HOVER": "Opens the shilling window.",
+  "BETTERUI_BUGREPORT": "Download LookingGlass",
+  "BETTERUI_CLOSE_WINDOW": "Close Window (so you can restart the game with LookingGlass installed)",
+  "BETTERUI_MADEBY": "Button mod made by XoXFaby",
+  "BETTERUI_WINDOW_LABEL": "LookingGlass is a QoL UI mod that exposes statistics for items and the player, adjusts the size and features of command and scrapper menus, and much more. Fully open source and compatible with RiskUI!"
 }

@@ -17,7 +17,7 @@ namespace BetterUI
     {
         public const string GUID = "com.xoxfaby.BetterUI";
         public const string Name = "BetterUI";
-        public const string Version = "2.7.2";
+        public const string Version = "3.0.3";
         internal static BetterUIPlugin instance;
         internal delegate void HUDAwakeEvent(RoR2.UI.HUD self);
         internal static event HUDAwakeEvent onHUDAwake;

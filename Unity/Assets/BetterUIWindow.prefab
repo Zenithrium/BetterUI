@@ -1140,7 +1140,7 @@ PrefabInstance:
     - target: {fileID: 2933658015805124738, guid: fa1a1afc37de91a4d889c259cf732c3b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: https://github.com/xoxfaby/BetterUI/issues/new/choose
+      value: https://thunderstore.io/package/DropPod/LookingGlass/
       objectReference: {fileID: 0}
     - target: {fileID: 2933658015805124738, guid: fa1a1afc37de91a4d889c259cf732c3b,
         type: 3}
